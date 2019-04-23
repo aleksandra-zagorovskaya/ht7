@@ -1,0 +1,64 @@
+.person1 {
+    background-image:url("images/person1.jpg");
+}
+.person2 {
+    background-image:url("images/person2.jpg");
+}
+.person3 {
+    background-image:url("images/person3.jpg");
+}
+.page-center {
+    margin: 0 auto;
+    margin-top: 300px;
+    width: 600px;
+    height: 200px;
+}
+.person {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border: 2px solid grey;
+    border-radius:  50%;
+}
+.float{
+    float: left;
+    margin-right: 20px;
+}
+.picture {
+    background-image: url("images/social_icons.png");
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    /*border: 1px solid black;*/
+    border-radius: 50%;
+}
+.vk {
+    background-position: -60px -150px;
+}
+.twit {
+    background-position: -30px -90px;
+    left: -20px;
+    top: 26px;
+}
+.fb {
+    background-position: 0 -90px;
+    left: -26px;
+    top: 58px;
+}
+.sms {
+    background-position: 30px -90px;
+    left: 65px;
+    top: 143px;
+}
+.vk:hover {
+    background-position: -60px -120px;
+}
+.twit:hover {
+    background-position: -30px -60px;
+}
+.fb:hover {
+    background-position: 0 0;
+}
+.sms:hover {
+    background-position: 30px -60px;
+}
